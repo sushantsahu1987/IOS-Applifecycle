@@ -12,8 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         print("view did load")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        print("view did appear")
     }
 
     override func didReceiveMemoryWarning() {
